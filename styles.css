@@ -122,3 +122,15 @@ h1 {
     border: 2px solid black;
     font-size: 3rem;
 }
+.add-btn{
+   border-radius: 30px;
+    font-size: 1.8rem;
+    border: none;
+margin: 70px;
+background-color: green;
+}
+
+.add-btn:hover{
+cursor: pointer;
+font-size: 2rem;
+}

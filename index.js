@@ -82,7 +82,7 @@ function renderMenu() {
     <p>Ingredients: ${itemsMenu.ingredients.join('+')} </p>
  </div>
    <div >
-   <button data-item="${itemsMenu.id}"  data-price="${itemsMenu.price}" id="btn-add-product" >
+   <button data-item="${itemsMenu.id}"  data-price="${itemsMenu.price}" id="btn-add-product" class="add-btn" >
             <i data-item="${itemsMenu.id}" data-price="${itemsMenu.price}" id="btn-add-product" class="fa-solid fa-plus" >
    </i></button>
    
