@@ -1,5 +1,5 @@
-Project Title: Web-based Shopping Cart
-Project Description
+<h1>Project Title: Web-based Shopping Cart</h1>
+<h2>Project Description</h2>
 This project is a simple web-based shopping cart that allows users to add items to their cart, view the total cost, and complete their order by submitting a payment form. It leverages HTML, CSS, and JavaScript to create a dynamic and interactive shopping experience.
 
 Features
