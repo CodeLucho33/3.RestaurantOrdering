@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nature's Feast</title>
+</head>
+
+<body>
+    <footer>
+        <h1>Nature's Feast</h1>
+    </footer>
+
+    <main>
+        <div id="content">
+
+
+        </div>
+        <form id="form-pay" class="form-pay">
+            <h2>Detalles de pago</h2>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Sherlok Holmes" id="name" name="name" required>
+            <label for="number-card">Number Card:</label>
+            <input type="text" placeholder="5903 455 451 1233" id="number-card" name="number-card" required>
+            <label for="cvv-number">CVV:</label>
+            <input type="text" placeholder="894" id="cvv-number" name="cvv-number" required>
+
+            <button id="go-pay" class="go-pay">Complete order</button>
+
+        </form>
+        <div id="factura-completa" class="factura-completa">
+            <ul id="factura" class="itemsApagar">
+
+            </ul>
+            <p id="sum"></p>
+            <button id="btn-complete-order" class="btn-complete-order">Pay!</button>
+        </div  >
+        <p id="final-message" class="final-message"></p>
+    </main>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

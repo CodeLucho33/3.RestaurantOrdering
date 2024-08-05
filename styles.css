@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: aliceblue;
+}
+
+footer {
+    margin: 0;
+
+    background-image: url('images/footer2.jpg');
+    background-size: cover;
+    height: 150px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container-product {
+    width: 90%;
+    height: 10%;
+    background-color: brown;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    margin: 20px auto;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.img-product {
+    font-size: 5rem;
+
+}
+
+.info-product {
+    margin: auto;
+}
+
+.itemsApagar {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.factura-completa {
+    display: block;
+    width: 70%;
+    background-color: chocolate;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 30px;
+   
+}
+
+#sum {
+    text-align: right;
+}
+
+.btn-complete-order {
+    display: none;
+    width: 8%;
+    height: 10%;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 2em;
+    font-size: 1rem;
+    background-color: greenyellow;
+    margin: auto;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.btn-complete-order:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.form-pay {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 1px;
+
+    left: 30%;
+    flex-direction: column;
+    width: 40%;
+    line-height: 2;
+    margin: auto;
+    background-color: blanchedalmond;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.go-pay {
+    background-color: green;
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+}
+
+.go-pay:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.final-message{
+    display: none;
+    padding:  3rem 0px;
+    background-color: greenyellow;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 3rem;
+}
